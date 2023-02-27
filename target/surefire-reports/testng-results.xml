@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27352" started-at="2023-02-26T23:08:27 IST" finished-at="2023-02-26T23:08:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27352" started-at="2023-02-26T23:08:27 IST" finished-at="2023-02-26T23:08:55 IST">
+      <class name="testcases.Logintest">
+        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:testcases.Logintest@1b1473ab]" name="setupbrowser" is-config="true" duration-ms="12143" started-at="2023-02-26T23:08:31 IST" finished-at="2023-02-26T23:08:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="PASS" signature="logintoapplication(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@1b1473ab]" name="logintoapplication" duration-ms="2161" started-at="2023-02-26T23:08:43 IST" data-provider="Logindetails" finished-at="2023-02-26T23:08:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ineuron@ineuron.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ineuron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.Logintest@1b1473ab]" name="closebrowser" is-config="true" duration-ms="1412" started-at="2023-02-26T23:08:45 IST" finished-at="2023-02-26T23:08:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="setupbrowser()[pri:0, instance:testcases.Logintest@1b1473ab]" name="setupbrowser" is-config="true" duration-ms="5515" started-at="2023-02-26T23:08:47 IST" finished-at="2023-02-26T23:08:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="PASS" signature="logintoapplication(java.lang.String,java.lang.String)[pri:0, instance:testcases.Logintest@1b1473ab]" name="logintoapplication" duration-ms="1251" started-at="2023-02-26T23:08:52 IST" data-provider="Logindetails" finished-at="2023-02-26T23:08:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@ineuron.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passtest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapplication -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.Logintest@1b1473ab]" name="closebrowser" is-config="true" duration-ms="1032" started-at="2023-02-26T23:08:54 IST" finished-at="2023-02-26T23:08:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
