@@ -31,8 +31,7 @@ public class Browserfactory
 			opt.addArguments("--no-sandbox");
 			driver=new ChromeDriver(opt);
 			
-			driver = (WebDriver) new ChromeDriver();
-		} else if (browserName.contains("Firefox")) {
+					} else if (browserName.contains("Firefox")) {
 			driver = (WebDriver) new FirefoxDriver();
 		} else if (browserName.contains("Safari")) {
 			driver = (WebDriver) new SafariDriver();
